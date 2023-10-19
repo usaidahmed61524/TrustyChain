@@ -1,0 +1,33 @@
+.section1Container {
+  background-image: url("../../images/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-bottom: 3rem;
+}
+
+.moveuptodown {
+  position: sticky;
+  float: right;
+  margin-right: 50px;
+}
+p{
+  margin-bottom: 0px;
+}
+.mycontainer {
+  text-align: center;
+  margin-top: 35rem;
+  /* padding: 0px 10px 4rem 0px; */
+}
+.fHading {
+  font-size: 3rem;
+  color: white;
+  font-family: "Snowburst One", cursive;
+  font-weight: 800;
+}
+.fpara {
+  color: #539a9a;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: serif;
+}

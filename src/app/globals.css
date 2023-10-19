@@ -1,0 +1,197 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.btn.btn-lg.btn-color-yellow {
+  padding: 15px;
+  background-color: #f3cc30;
+  color: #251f18;
+  border-radius: 0px;
+  font-weight: 700;
+  width: 13rem;
+}
+
+ol,
+ul {
+  padding-left: 0rem !important;
+}
+
+.modal-content {
+  height: 20rem;
+  background-color: #303c3a !important;
+}
+
+button.login-btn.btn.btn-primary {
+  background-color: #e4e2e3;
+  color: black;
+}
+
+.spinner-border {
+  width: 50px;
+  position: fixed;
+  top: 50%;
+  height: 50px;
+  left: 50%;
+  vertical-align: -0.125em;
+  color: #767676 !important;
+}
+
+/* responsive css */
+
+@media (min-width: 1350px) {
+  .contentMessage {
+    width: 70% !important;
+  }
+}
+
+/* 1053 */
+
+@media (max-width: 1053px) {
+  .messageImagContainer2 {
+    padding-top: 0px !important;
+  }
+
+  .contentMessage {
+    width: 32rem !important;
+  }
+
+  img.dog3image {
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  .messageImag2Container {
+    height: 22rem !important;
+    width: 33rem !important;
+  }
+}
+
+@media (min-width: 1677px) {
+  .messageImag2Container {
+    height: 39rem !important;
+    width: 50rem !important;
+    padding-top: 10% !important;
+  }
+}
+
+/* 1676 */
+/* moblie mode */
+
+@media (max-width: 800px) {
+  .disflexsection2 {
+    display: block !important;
+  }
+
+  .left1 {
+    width: 100% !important;
+  }
+
+  .messageImagContainer2 {
+    height: 29rem !important;
+    text-align: start !important;
+    width: 100%;
+  }
+
+  .contentMessage {
+    width: 85% !important;
+  }
+}
+
+@media (max-width: 530px) {
+  .contentMessage {
+    padding: 2rem 0rem 0rem 3rem !important;
+    overflow: hidden !important;
+    width: 100% !important;
+    height: 41% !important;
+  }
+
+  .disflexsection3 {
+    display: block !important;
+    height: 100%;
+  }
+
+  .messageImag2Container {
+    height: 20rem !important;
+    width: 100% !important;
+  }
+
+  .contentMessage2 {
+    padding: 3rem !important;
+    width: 100% !important;
+    height: 80% !important;
+    overflow: hidden !important;
+  }
+
+  img.dog2image {
+    height: 100% !important;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .messageImag2Container {
+    height: 18rem !important;
+  }
+}
+
+@media (max-width: 330px) {
+  .messageImag2Container {
+    height: 16rem !important;
+  }
+}
+
+@media (max-width: 680px) {
+  .container-fluid {
+    justify-content: center !important;
+  }
+
+  div#navbarSupportedContent {
+    justify-content: center !important;
+    margin-top: 30px !important;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .myList {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+
+  button.btn.btn-dark {
+    margin-top: 20px !important;
+  }
+}
+
+
+
+button.btn-close {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.spinner-border {
+  display: inline-block !important;
+  width: 50px !important;
+  color: #01b956 !important;
+  position: fixed !important;
+  top: 50% !important;
+  height: 50px !important;
+  left: 50% !important;
+  vertical-align: -0.125em !important;
+  background-color: currentColor !important;
+  border-radius: 50% !important;
+  -webkit-animation: .75s linear infinite spinner-grow !important;
+  animation: .75s linear infinite spinner-grow !important;
+}

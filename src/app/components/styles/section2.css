@@ -1,0 +1,53 @@
+.section2Container {
+  background-image: url("../../images/bg-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5rem;
+}
+
+.disflexsection2 {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height: 100%;
+}
+
+img.dog2image {
+  height: 100%;
+  width: 80%;
+}
+.left1 {
+  width: 50%;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.right1 {
+  width: 50%;
+  text-align: center;
+}
+
+.btn.btn-lg.btn-color-yellow {
+  padding: 15px;
+  background-color: #f3cc30;
+  color: #251f18;
+  border-radius: 0px;
+  font-weight: 700;
+}
+
+.messageImagContainer2 {
+  background-image: url("../../images/messageimage.png");
+  background-size: contain;
+  height: 29rem;
+  background-repeat: no-repeat;
+  text-align: start;
+  padding-top: 5%;
+  display: inline-block;
+}
+
+.contentMessage {
+  width: 100%;
+  height: auto;
+  padding: 5rem;
+}
+

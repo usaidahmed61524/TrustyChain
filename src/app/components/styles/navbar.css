@@ -1,0 +1,38 @@
+.navIcons {
+  color: #151722;
+  height: 3rem;
+  width: 3rem;
+  background-color: #e4e2e3;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.navIcons:hover {
+  background-color: #f3cc30;
+}
+
+.logo {
+  height: 7rem;
+  width: 10rem;
+}
+
+li.nav-item {
+  margin: 0px 10px;
+}
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+  background: transparent !important;
+}
+button.btn.btn-dark {
+  background-color: #e4e2e3;
+  color: black;
+}
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  justify-content: end;
+  flex-basis: auto;
+}
+
+.myList {
+  display: flex;
+  list-style: none;
+}
